@@ -1,35 +1,40 @@
 # LeetCode Python Solutions
 
-This repository contains my LeetCode problem solutions written in Python, organized by difficulty.
+This repository contains LeetCode solutions written in Python, organized by difficulty. Each problem includes a Python solution file and a matching notes file with the approach and explanation.
 
 ## Structure
 
 ```text
 .
 ├── easy/
-│   └── combining-two-tables.md
-└── medium/
+│   ├── 175-combine-two-tables.md
+│   ├── 175-combine-two-tables.py
+│   ├── 182-duplicate-emails.md
+│   └── 182-duplicate-emails.py
 ```
 
 ## Current Contents
 
-- `easy/combining-two-tables.md`: solution notes and Python code for the LeetCode problem "Combining Two Tables"
+| Difficulty | Problem | Files |
+| --- | --- | --- |
+| Easy | 175. Combine Two Tables | `easy/175-combine-two-tables.py`, `easy/175-combine-two-tables.md` |
+| Easy | 182. Duplicate Emails | `easy/182-duplicate-emails.py`, `easy/182-duplicate-emails.md` |
 
 ## Format
 
-Each solution file may include:
+Each problem entry currently includes:
 
-- the problem summary
-- the approach used
-- key implementation details
-- the final Python solution
+- a Python solution in a `.py` file
+- a matching `.md` file with the problem summary
+- the approach and key idea
+- a short step-by-step explanation
 
 ## Goals
 
-- keep solutions organized by difficulty
+- keep solutions organized by difficulty and problem number
 - document the reasoning behind each answer
 - build a reference for interview prep and review
 
 ## Notes
 
-The repository is still in progress and will grow as more problems are added.
+The repository is still in progress and will expand as more solutions are added.
