@@ -1,40 +1,46 @@
-# LeetCode Python Solutions
+# LeetCode Pandas Solutions
 
-This repository contains LeetCode solutions written in Python, organized by difficulty. Each problem includes a Python solution file and a matching notes file with the approach and explanation.
+This repository collects LeetCode database-style problems solved with pandas.
+Each problem lives in its own folder and includes:
 
-## Structure
+- a `.py` solution file
+- a matching `.md` explanation file
+
+## Repository Structure
 
 ```text
 .
-├── easy/
-│   ├── 175-combine-two-tables.md
-│   ├── 175-combine-two-tables.py
-│   ├── 182-duplicate-emails.md
-│   └── 182-duplicate-emails.py
+├── README.md
+└── easy/
+    ├── 175-combine-two-tables/
+    │   ├── 175-combine-two-tables.md
+    │   └── 175-combine-two-tables.py
+    └── 182-duplicate-emails/
+        ├── 182-duplicate-emails.md
+        └── 182-duplicate-emails.py
 ```
 
-## Current Contents
+## Current Problems
 
-| Difficulty | Problem | Files |
-| --- | --- | --- |
-| Easy | 175. Combine Two Tables | `easy/175-combine-two-tables.py`, `easy/175-combine-two-tables.md` |
-| Easy | 182. Duplicate Emails | `easy/182-duplicate-emails.py`, `easy/182-duplicate-emails.md` |
+| Difficulty | Problem | Solution | Notes |
+| --- | --- | --- | --- |
+| Easy | 175. Combine Two Tables | `easy/175-combine-two-tables/175-combine-two-tables.py` | `easy/175-combine-two-tables/175-combine-two-tables.md` |
+| Easy | 182. Duplicate Emails | `easy/182-duplicate-emails/182-duplicate-emails.py` | `easy/182-duplicate-emails/182-duplicate-emails.md` |
 
-## Format
+## Solution Format
 
-Each problem entry currently includes:
+Each solution is organized to be easy to review later:
 
-- a Python solution in a `.py` file
-- a matching `.md` file with the problem summary
-- the approach and key idea
-- a short step-by-step explanation
+- the Python file contains the pandas implementation expected by LeetCode
+- the Markdown file summarizes the problem
+- the explanation file describes the approach, key idea, and step-by-step reasoning
 
 ## Goals
 
-- keep solutions organized by difficulty and problem number
+- keep pandas solutions organized by difficulty and problem number
 - document the reasoning behind each answer
-- build a reference for interview prep and review
+- build a clean reference for interview prep and practice review
 
 ## Notes
 
-The repository is still in progress and will expand as more solutions are added.
+The repository is still growing and will expand as more pandas problems are added.
